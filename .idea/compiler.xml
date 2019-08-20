@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="adminprovide" />
+        <module name="rabbit-consumer" />
+        <module name="rabbit-producer" />
+        <module name="servicecenter" />
+        <module name="admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka_feign" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="admin" options="" />
+      <module name="adminprovide" options="" />
+      <module name="eureka_feign" options="" />
+      <module name="rabbit-consumer" options="" />
+      <module name="rabbit-producer" options="" />
+      <module name="servicecenter" options="" />
+    </option>
+  </component>
+</project>
